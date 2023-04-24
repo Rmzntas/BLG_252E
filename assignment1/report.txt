@@ -1,0 +1,23 @@
+/* @Author
+ * Student Name:  Ramazan Taş
+ */
+
+- University::evaluate_student(Student&) method invoked by university_array[3] object. And the student3 referance parametre send this method.
+- Student::get_name() method invoked by student3 object.
+- Student::get_gpa() method invoked by student3 object.
+- Student::get_gre() method invoked by student3 object.
+- Student::get_toefl() method invoked by student3 object.
+- Student::get_name() method invoked by student3 object.
+- Student::increase_applications() method invoked by student3 object.
+
+- Student::~Student destructor method invoked by student4 object.
+- Student::~Student destructor method invoked by student3 object.
+- Student::~Student destructor method invoked by student2 object.
+- Student::~Student destructor method invoked by student1 object.
+
+// I didn't write destructor for University class but default destructor will automaticly invoked
+
+- University::~University default destructor method invoked by university_array[3] object.
+- University::~University default destructor method invoked by university_array[2] object.
+- University::~University default destructor method invoked by university_array[1] object.
+- University::~University default destructor method invoked by university_array[0] object.
